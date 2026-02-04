@@ -50,3 +50,24 @@ footer {
   border-radius: 4px;
   font-weight: bold;
 }
+
+.players {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.player-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 6px;
+  background: #f9f9f9;
+}
+
+.player-card {
+  border-bottom: 1px solid #ccc;
+  padding: 15px 0;
+}
+.player-card:last-child {
+  border-bottom: none;
+}
