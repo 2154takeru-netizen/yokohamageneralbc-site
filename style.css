@@ -65,9 +65,27 @@ footer {
 }
 
 .player-card {
-  border-bottom: 1px solid #ccc;
+  display: flex;
+  gap: 20px;
   padding: 15px 0;
+  border-bottom: 1px solid #ccc;
 }
-.player-card:last-child {
-  border-bottom: none;
+
+.player-photo {
+  width: 120px;
+  height: 160px;
+  border: 1px solid #aaa;
+  background: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #999;
+  font-size: 14px;
+}
+
+.player-info {
+  flex: 1;
+}
+.player-info h3 {
+  margin: 0 0 10px 0;
 }
