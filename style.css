@@ -53,23 +53,17 @@ footer {
 
 .players {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
 
 .player-card {
   border: 1px solid #ccc;
-  padding: 15px;
   border-radius: 6px;
   background: #f9f9f9;
+  padding: 15px;
 }
 
-.player-card {
-  display: flex;
-  gap: 20px;
-  padding: 15px 0;
-  border-bottom: 1px solid #ccc;
-}
 
 .player-photo {
   width: 120px;
