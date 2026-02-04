@@ -53,9 +53,10 @@ footer {
 
 .players {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, minmax(260px, 1fr));
   gap: 20px;
 }
+
 
 
 
@@ -69,8 +70,9 @@ footer {
 .players-layout {
   display: grid;
   grid-template-columns: 3fr 1fr;
-  gap: 20px;
 }
+
+
 
 .side-box {
   border: 1px solid #ccc;
@@ -98,4 +100,10 @@ footer {
 
 .player-info h3 {
   margin: 0 0 10px 0;
+}
+
+.player-card {
+  display: flex;
+  gap: 15px;
+  align-items: center;
 }
