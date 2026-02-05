@@ -35,9 +35,10 @@ footer {
   padding: 10px;
 }
 
-.contact {
-  text-align: center;
-  margin-top: 40px;
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 
@@ -72,16 +73,6 @@ footer {
   grid-template-columns: 3fr 1fr;
 }
 
-
-
-.side-box {
-  border: 1px solid #ccc;
-  padding: 15px;
-  background: #fafafa;
-  border-radius: 6px;
-}
-
-
 .player-photo {
   width: 120px;
   height: 160px;
@@ -100,10 +91,4 @@ footer {
 
 .player-info h3 {
   margin: 0 0 10px 0;
-}
-
-.player-card {
-  display: flex;
-  gap: 15px;
-  align-items: center;
 }
