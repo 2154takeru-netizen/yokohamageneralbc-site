@@ -9,6 +9,12 @@ header {
   padding: 15px;
 }
 
+header > * {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+
 nav ul {
   list-style: none;
   display: flex;
@@ -40,6 +46,7 @@ footer {
   margin: 0 auto;
   padding: 0 20px;
 }
+
 
 
 .contact-btn {
