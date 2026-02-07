@@ -60,6 +60,9 @@ footer {
 }
 
 .players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
   max-width: 1200px;
   margin: 0 auto;
 }
