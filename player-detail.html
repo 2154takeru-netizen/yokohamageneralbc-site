@@ -1,21 +1,23 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <title>選手詳細</title>
-  <link rel="stylesheet" href="../css/style.css">
-</head>
 <body>
+  <div class="player-detail">
+    <h1 id="player-name"></h1>
+    <p id="player-pos"></p>
 
-<h2 id="player-name"></h2>
-<p id="player-pos"></p>
+    <div class="stats">
+      <div class="stat">
+        <span class="label">打率</span>
+        <span class="value" id="avg"></span>
+      </div>
+      <div class="stat">
+        <span class="label">本塁打</span>
+        <span class="value" id="hr"></span>
+      </div>
+      <div class="stat">
+        <span class="label">打点</span>
+        <span class="value" id="rbi"></span>
+      </div>
+    </div>
+  </div>
 
-<table border="1">
-  <tr><th>打率</th><td id="avg"></td></tr>
-  <tr><th>本塁打</th><td id="hr"></td></tr>
-  <tr><th>打点</th><td id="rbi"></td></tr>
-</table>
-
-<script src="player.js"></script>
+  <script src="player.js"></script>
 </body>
-</html>
