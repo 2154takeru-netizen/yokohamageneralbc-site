@@ -9,7 +9,7 @@ const players = {
     hr: 5,
     rbi: 18
   },
-  2: {
+  3: {
     name: "三浦 憲大",
     pos: "外野手",
     avg: ".280",
