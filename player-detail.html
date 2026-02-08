@@ -1,23 +1,42 @@
 <body>
-  <div class="player-detail">
-    <h1 id="player-name"></h1>
-    <p id="player-pos"></p>
+  <main class="player-detail">
 
-    <div class="stats">
-      <div class="stat">
-        <span class="label">打率</span>
-        <span class="value" id="avg"></span>
-      </div>
-      <div class="stat">
-        <span class="label">本塁打</span>
-        <span class="value" id="hr"></span>
-      </div>
-      <div class="stat">
-        <span class="label">打点</span>
-        <span class="value" id="rbi"></span>
-      </div>
-    </div>
-  </div>
+    <!-- 選手名 -->
+    <section class="player-header">
+      <h1>武内 健流</h1>
+      <p class="number">#1</p>
+    </section>
 
-  <script src="player.js"></script>
+    <!-- 写真＋基本情報 -->
+    <section class="player-main">
+      <div class="player-photo">
+        <img src="images/takeuchi.jpg" alt="武内 健流">
+      </div>
+
+      <div class="player-profile">
+        <p><span>ポジション</span> 三塁手</p>
+        <p><span>打率</span> .312</p>
+        <p><span>本塁打</span> 2</p>
+        <p><span>打点</span> 19</p>
+      </div>
+    </section>
+
+    <!-- 成績 -->
+    <section class="player-stats">
+      <h2>成績</h2>
+      <table>
+        <tr>
+          <th>打率</th>
+          <th>本塁打</th>
+          <th>打点</th>
+        </tr>
+        <tr>
+          <td>.280</td>
+          <td>2</td>
+          <td>10</td>
+        </tr>
+      </table>
+    </section>
+
+  </main>
 </body>
